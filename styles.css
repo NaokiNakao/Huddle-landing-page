@@ -1,0 +1,106 @@
+:root {
+    /* Primary colors */
+    --pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --light-red: hsl(0, 100%, 63%);
+
+    /* Neutral colors */
+    --very-dark-cyan:hsl(192, 100%, 9%);
+    --very-pale-blue: hsl(207, 100%, 98%);
+
+    /* Font styles */
+    --poppins: 'Poppins', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+}
+
+/* general styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* header styles */
+
+.pg-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.pg-header > div {
+    flex: 1;
+}
+
+.pg-header__logo {
+    justify-content: flex-start;
+}
+
+.pg-header__btn {
+    justify-content: flex-end;
+}
+
+/* card styles */
+
+.card > img {
+    width: 90%;
+}
+
+/* containers styles */
+
+.container {
+    text-align: center;
+}
+
+.container__img > img {
+    width: 70%;
+}
+
+.container__hd {
+    font-family: var(--poppins);
+    font-weight: 700;
+}
+
+.container__txt {
+    font-family: var(--open-sans);
+    font-weight: 400;
+}
+
+/* stats styles */
+
+.stats__cnt > div > strong {
+    font-family: var(--open-sans);
+    font-weight: 700;
+}
+
+.stats__cnt > div > small {
+    font-family: var(--open-sans);
+    font-weight: 400;
+}
+
+/* footer styles */
+
+.newsletter__hd {
+    text-transform: uppercase;
+    font-family: var(--poppins);
+}
+
+.footer--txt {
+    font-family: var(--open-sans);
+    font-weight: 400;
+}
+
+.contact-us__hd {
+    font-family: var(--open-sans);
+    font-weight: 700;
+}
+
+.contact-us__phone, .contact-us__email {
+    font-family: var(--open-sans);
+    font-weight: 400;
+}
