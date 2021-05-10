@@ -127,14 +127,47 @@ html, body {
 
 /* stats styles */
 
-.stats__cnt > div > strong {
-    font-family: var(--open-sans);
-    font-weight: 700;
+.stats {
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0;
 }
 
-.stats__cnt > div > small {
+.stats__cnt {
+    margin: 4em 0;
+}
+
+.stats__cnt > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.stats__cnt > ul > li {
+    width: 70%;
+    align-self: center;
+}
+
+.stats__cnt > ul > li > img {
+    height: 2em;
+}
+
+.stats__cnt > ul > li > strong {
+    font-family: var(--open-sans);
+    font-weight: 700;
+    font-size: 5em;
+    color: var(--very-dark-cyan);
+}
+
+.stats__cnt > ul > li > small {
     font-family: var(--open-sans);
     font-weight: 400;
+    font-size: 1.1em;
+    color: var(--very-dark-cyan);
+}
+
+.stats__cnt > ul > li:last-child {
+    text-align: center;
 }
 
 /* footer styles */
