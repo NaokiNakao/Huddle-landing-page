@@ -33,16 +33,40 @@ html, body {
     flex-direction: row;
 }
 
-.pg-header > div {
+.pg-header > * {
     flex: 1;
+    display: flex;
+    margin: 0.6em;
 }
 
 .pg-header__logo {
     justify-content: flex-start;
 }
 
+.pg-header__logo > img {
+    height: 1em;
+    align-self: center;
+}
+
 .pg-header__btn {
     justify-content: flex-end;
+}
+
+.pg-header__btn > button{
+    align-self: flex-end;
+    outline: none;
+    display: block;
+    border: 1px solid var(--light-pink);
+    font-family: var(--open-sans);
+    font-weight: 400;
+    font-size: 0.8em;
+    text-transform: capitalize;
+    color: var(--light-pink);
+    background: #ffffff;
+    padding: 0.3em 1.5em;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 3px;
 }
 
 /* card styles */
