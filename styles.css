@@ -297,12 +297,64 @@ footer > section {
     color: #ffffff;
 }
 
+.contact-us__logo {
+    display: inline-block;
+}
+
+.contact-us__logo > img {
+    height: 1.8em;
+    filter: brightness(100);
+}
+
 .contact-us__hd {
+    display: inline-block;
     font-family: var(--open-sans);
     font-weight: 700;
+    font-size: 1.5em;
+    color: #ffffff;
 }
 
 .contact-us__phone, .contact-us__email {
     font-family: var(--open-sans);
     font-weight: 400;
+    font-size: 0.9em;
+    color: #ffffff;
 }
+
+.contact-us__txt {
+    margin: 1em 0;
+}
+
+.contact-us__phone, .contact-us__email {
+    margin: 2em 0;
+} 
+
+.contact-us__phone > img, .contact-us__email > img {
+    margin-right: 1em;
+}
+
+.contact-us__social {
+    margin: 1em 0;
+}
+
+.contact-us__social > ul {
+    list-style: none;
+    float: left;
+    padding: 2em 0;
+}
+
+.contact-us__social > ul > li {
+    margin-right: 1em;
+    float: left;
+}
+
+.contact-us__social > ul > li > i {
+    font-size: 1.8em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.contact-us__social > ul > li > i:hover {
+    color: #3498db;
+}
+
